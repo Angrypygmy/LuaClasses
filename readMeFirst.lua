@@ -1,6 +1,6 @@
 -- Notes:
-  - If you read this from top to bottom it might not make sense. If you are looking at 'Method 1' in a section,
-      follow all the other sections that have a 'Method 1'. The same goes for anywhere you see 'Method 2'.
+  -- If you read this from top to bottom it might not make sense. If you are looking at 'Method 1' in a section,
+  -- follow all the other sections that have a 'Method 1' before reading a 'Method 2'. The same goes for anywhere you see 'Method 2'.
 
 -- Usage:
 
