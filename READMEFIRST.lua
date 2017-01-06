@@ -99,4 +99,4 @@ require("class")
     YVel  = 0,
     Speed = 256,
     Mass  = 512
-  },Base)  -- Passing the variable Base that holds Moving's Constructor function.
+  },Base)  -- Passing the variable Base that holds Base's Ctor
