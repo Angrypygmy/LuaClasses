@@ -7,7 +7,7 @@ function class.new(tab,der)
             local obj = class[der]()
 
             for k,v in pairs(tab) do
-                if type(v) == "number" or type(v) == "string" or type(v) == "boolean" then
+                if type(v) ~= "function" then
                     obj["Set"..k] = function(val)
                         v = val
                     end
@@ -15,6 +15,8 @@ function class.new(tab,der)
                     obj["Get"..k] = function()
                         return v
                     end
+                else
+                    obj[k] = v
                 end
             end
 
@@ -23,7 +25,7 @@ function class.new(tab,der)
             local s = {}
 
             for k,v in pairs(tab) do
-                if type(v) == "number" or type(v) == "string" or type(v) == "boolean" then
+                if type(v) ~= "function" then
                     s["Set"..k] = function(val)
                         v = val
                     end
@@ -31,6 +33,8 @@ function class.new(tab,der)
                     s["Get"..k] = function()
                         return v
                     end
+                else
+                    obj[k] = v
                 end
             end
 
