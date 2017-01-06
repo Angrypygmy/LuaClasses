@@ -64,9 +64,10 @@ require("class")
   print(Sparky.GetName())
   print(Sparky.GetBark())
   
--- Deriving a class from another class:
+-- Deriving a class from another class (Inheritance):
   -- Deriving from another class is simple as passing the class name as a second argument, either as a string that will
   -- look up that class, or if you stored the class, pass it the variable you created which contains its Constructor.
+  -- Any class derived from another will include all of the derived classes functions,variables,tables,etc. 
   
   -- Method 1:
 
