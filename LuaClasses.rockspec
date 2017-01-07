@@ -1,24 +1,27 @@
 package = "LuaClasses"
-version = "0.1"
+version = "0.1-0"
 source = {
-    url = "https://github.com/Angrypygmy/LuaClasses",
-    md5 = "",
+    url = "git://github.com/Angrypygmy/LuaClasses",
+    tag = "v0.1"
 }
 description = {
-    summary = "",
-    detailed = [[
-            
+    summary = "Closure based class support for lua",
+    detailed = 
+    [[
+        A closure based Lua script supporting:
+            -Encapsulation
+            -Inheritance
+            -Polymorphism
     ]],
-    homepage = "http://lua-users.org/wiki/ObjectLua",
-    maintainer = "Angrypygmy",
-    license = "None"
+    homepage = "https://github.com/Angrypygmy/LuaClasses",
+    license = "MIT"
 }
 dependencies = {
-    "lua >= 5.1",
+    "lua >= 5.1"
 }
 build = {
-    type = "module",
+    type = "builtin",
     modules = {
-        ["LuaClasses.class"]     = "class.lua"
+        LuaClasses = "class.lua"
     }
 }
