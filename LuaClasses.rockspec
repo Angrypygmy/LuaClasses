@@ -1,8 +1,8 @@
 package = "LuaClasses"
-version = "0.1-0"
+version = "1.0-0"
 source = {
     url = "git://github.com/Angrypygmy/LuaClasses",
-    tag = "v0.1"
+    tag = "1.0"
 }
 description = {
     summary = "Closure based class support for lua",
@@ -14,7 +14,7 @@ description = {
             -Polymorphism
     ]],
     homepage = "https://github.com/Angrypygmy/LuaClasses",
-    license = "MIT"
+    license = "None"
 }
 dependencies = {
     "lua >= 5.1"
