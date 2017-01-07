@@ -34,7 +34,7 @@ function class.new(tab,der)
                         return v
                     end
                 else
-                    obj[k] = v
+                    s[k] = v
                 end
             end
 
