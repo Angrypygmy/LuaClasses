@@ -42,6 +42,7 @@ setmetatable(class,{
     end
 })
 
+-- Example Class Definition:
 function class:Base()
     local private = {}
     local public  = {}
