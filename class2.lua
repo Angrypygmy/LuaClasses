@@ -69,3 +69,9 @@ print(obj:GetX())
 print(obj2:GetX())
 
 for a,b in pairs(obj) do print(a,b) end
+
+-- Output:
+-- 123
+-- 16
+-- GetX    function: 0x00021bc0
+-- SetX    function: 0x00021b80
